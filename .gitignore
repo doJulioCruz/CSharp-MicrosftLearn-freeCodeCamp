@@ -32,3 +32,16 @@
 *.app
 .vscode/tasks.json
 .vscode/launch.json
+*.cache
+*.targets
+*.json
+*.props
+*.pdb
+*.pdb
+Controlar o escopo da variável e a lógica/bin/Debug/net7.0/Controlar o escopo da variável e a lógica.pdb
+Desafio de escopo variável/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+Desafio de escopo variável/obj/Debug/net7.0/Desafio de escopo variável.AssemblyInfo.cs
+
+Desafio de escopo variável/obj/Debug/net7.0/Desafio de escopo variável.csproj.FileListAbsolute.txt
+*.editorconfig
+Desafio de escopo variável/obj/Debug/net7.0/Desafio de escopo variável.GlobalUsings.g.cs
