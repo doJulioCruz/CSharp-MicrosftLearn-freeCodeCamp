@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Controlar o escopo da variável e a lógica/1.0.0": {
+        "runtime": {
+          "Controlar o escopo da variável e a lógica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Controlar o escopo da variável e a lógica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

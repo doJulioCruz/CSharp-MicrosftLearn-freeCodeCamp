@@ -1,0 +1,14 @@
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\bin\Debug\net7.0\Controlar o escopo da variável e a lógica.exe
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\bin\Debug\net7.0\Controlar o escopo da variável e a lógica.deps.json
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\bin\Debug\net7.0\Controlar o escopo da variável e a lógica.runtimeconfig.json
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\bin\Debug\net7.0\Controlar o escopo da variável e a lógica.dll
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\bin\Debug\net7.0\Controlar o escopo da variável e a lógica.pdb
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.AssemblyInfoInputs.cache
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.AssemblyInfo.cs
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.csproj.CoreCompileInputs.cache
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.dll
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\refint\Controlar o escopo da variável e a lógica.dll
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.pdb
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\Controlar o escopo da variável e a lógica.genruntimeconfig.cache
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosftLearn\Controlar o escopo da variável e a lógica\obj\Debug\net7.0\ref\Controlar o escopo da variável e a lógica.dll
