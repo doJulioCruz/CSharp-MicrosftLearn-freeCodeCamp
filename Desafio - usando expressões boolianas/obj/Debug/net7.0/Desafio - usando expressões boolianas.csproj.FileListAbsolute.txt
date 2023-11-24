@@ -1,0 +1,14 @@
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\bin\Debug\net7.0\Desafio - usando expressões boolianas.exe
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\bin\Debug\net7.0\Desafio - usando expressões boolianas.deps.json
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\bin\Debug\net7.0\Desafio - usando expressões boolianas.runtimeconfig.json
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\bin\Debug\net7.0\Desafio - usando expressões boolianas.dll
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\bin\Debug\net7.0\Desafio - usando expressões boolianas.pdb
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.AssemblyInfoInputs.cache
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.AssemblyInfo.cs
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.csproj.CoreCompileInputs.cache
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.dll
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\refint\Desafio - usando expressões boolianas.dll
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.pdb
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\Desafio - usando expressões boolianas.genruntimeconfig.cache
+C:\Users\julio\Documents\projetoaprendiz\CSharp-MicrosoftLearn\Desafio - usando expressões boolianas\obj\Debug\net7.0\ref\Desafio - usando expressões boolianas.dll

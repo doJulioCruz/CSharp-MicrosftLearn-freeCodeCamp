@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\julio\\Documents\\projetoaprendiz\\CSharp-MicrosftLearn\\Controlar o escopo da variável e a lógica\\Controlar o escopo da variável e a lógica.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\julio\\Documents\\projetoaprendiz\\CSharp-MicrosftLearn\\Controlar o escopo da variável e a lógica\\Controlar o escopo da variável e a lógica.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\julio\\Documents\\projetoaprendiz\\CSharp-MicrosftLearn\\Controlar o escopo da variável e a lógica\\Controlar o escopo da variável e a lógica.csproj",
+        "projectName": "Controlar o escopo da variável e a lógica",
+        "projectPath": "C:\\Users\\julio\\Documents\\projetoaprendiz\\CSharp-MicrosftLearn\\Controlar o escopo da variável e a lógica\\Controlar o escopo da variável e a lógica.csproj",
+        "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julio\\Documents\\projetoaprendiz\\CSharp-MicrosftLearn\\Controlar o escopo da variável e a lógica\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
