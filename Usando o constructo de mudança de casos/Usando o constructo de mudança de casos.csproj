@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>Usando_o_constructo_de_mudança_de_casos_em_C_</RootNamespace>
+    <RootNamespace>Usando_o_constructo_de_mudança_de_casos</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
