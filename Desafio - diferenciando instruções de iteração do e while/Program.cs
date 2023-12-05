@@ -5,6 +5,7 @@
 string? readResult;
 bool validEntry = false;
 Console.WriteLine("Insira um número entre 5 e 10: ");
+
 do
 {
     readResult = Console.ReadLine();
@@ -18,6 +19,7 @@ do
             }else
             {
                 Console.WriteLine($"Ok, ({readResult}) foi aceito.");
+                validEntry = true;
             } 
         }
         else
@@ -42,8 +44,8 @@ while (validEntry == false)
     switch(cargos)
     {
         case "administrador":
+        case "gerente":
         case "usuario":
-        case "gerente": 
             validEntry = true;
             Console.WriteLine($"Seu valor de entrada ({readInput}) foi aceito.");
             break;
@@ -52,8 +54,8 @@ while (validEntry == false)
             cargos = readInput!.Trim().ToLower();
             break;
     }
-   
 }
+
 
 // Projeto de código 3: escreva um código que processe o conteúdo de uma matriz de caracteres
 
