@@ -198,7 +198,7 @@ do
                                 animalPhysicalDescription = "a ser definido";
                             }
                         }
-                    } while (animalPersonalityDescription == "");
+                    } while (animalPhysicalDescription == "");
 
                     //descreve a personalidade do animal - animalPersonalityDescription pode ficar em branco.
                     do
@@ -216,6 +216,30 @@ do
                             }
                         }
                     } while (animalPersonalityDescription == "");
+
+                    //Apelido para o animal
+                    do {
+                        Console.WriteLine("Adicione o apelido do animal de estimação.");
+                        readResult = Console.ReadLine();
+
+                        if (readResult != null)
+                        {
+                            animalNickname = readResult.ToLower();
+
+                            if (animalNickname == "")
+                            {
+                                animalNickname ="a ser definido";
+                            }
+                        }
+                    } while (animalNickname == "");
+
+                    //armazena as informações do animal na array ourAnimals (baseado em zero)
+                    ourAnimals[petCount, 0] = "ID #: " + animalID;
+                    ourAnimals[petCount, 1] = "Espécie: " + animalSpecies;
+                    ourAnimals[petCount, 2] = "Idade: " + animalAge;
+                    ourAnimals[petCount, 3] = "Apelido: " + animalNickname;
+                    ourAnimals[petCount, 4] = "Descrição física: " + animalPhysicalDescription;
+                    ourAnimals[petCount, 5] = "Personalidade: " + animalPersonalityDescription;
 
                 } while (validEntry == false);
                 //incrementando petCount (o array é baseado em zero, então incrementamos um contador após adicionar ao array)
