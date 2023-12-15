@@ -85,7 +85,7 @@ for (int i = 0; i < maxPets; i++)
 // display the top-level menu options
 do
 {
-    Console.Clear();
+    //Console.Clear();
 
     Console.WriteLine("Welcome to the Contoso PetFriends app. Your main menu options are:");
     Console.WriteLine(" 1. List all of our current pet information");
@@ -287,15 +287,112 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
-            Console.WriteLine("Press the Enter key to continue.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                if ((ourAnimals[i, 0] != "ID #: ") && (ourAnimals[i, 2] == "Age: ?"))
+                {
+                    Console.WriteLine();
+                    for (int j = 0; j < 1; j++)
+                    {
+                        Console.WriteLine($"Enter an age for {ourAnimals[i, j]}");
+
+                        do
+                        {
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalAge = readResult;
+                                if (int.TryParse(readResult, out int numero))
+                                {
+                                    validEntry = true;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Enter an age for {ourAnimals[i, j]}");
+                                }
+                            }
+                        } while (validEntry == false);
+
+                        do
+                        {
+                            Console.WriteLine($"Enter a physical description for {ourAnimals[i, j]} (size, color, gender, weight, housebroken)");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalPhysicalDescription = readResult.ToLower();
+                                if ((animalPhysicalDescription == "") || int.TryParse(readResult, out int numero))
+                                {
+                                    validEntry = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine();
+                                    Console.WriteLine("\nAge and physical description fields are complete for all of our friends.\nPress the Enter key to continue.");
+                                    validEntry = true;
+                                }
+
+                            }
+                        } while (validEntry == false);
+
+                    }
+                }
+            }
+
+            Console.WriteLine();
             readResult = Console.ReadLine();
             break;
 
         case "4":
             // Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
-            Console.WriteLine("Press the Enter key to continue.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                if ((ourAnimals[i, 0] != "ID #: ") && (ourAnimals[i, 3] == "Nickname: "))
+                {
+                    Console.WriteLine();
+                    for (int j = 0; j < 1; j++)
+                    {
+                        Console.WriteLine($"Enter a nickname for {ourAnimals[i, j]}");
+
+                        do
+                        {
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalNickname = readResult;
+                                if ((animalNickname == "") || int.TryParse(readResult, out int numero))
+                                {
+                                    Console.WriteLine($"Enter a nickname for {ourAnimals[i, j]}");
+                                }
+                                else
+                                {
+                                    validEntry = true;
+                                }
+                            }
+                        } while (validEntry == false);
+
+                        do
+                        {
+                            Console.WriteLine("Enter a personality description for ID #: c4 (likes or dislikes, tricks, energy level)");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                validEntry = false;
+                                animalPersonalityDescription = readResult;
+                                if ((readResult == "") || int.TryParse(readResult, out int numero))
+                                {
+                                    Console.WriteLine("Enter a personality description for ID #: c4 (likes or dislikes, tricks, energy level)");
+                                    Console.WriteLine();
+                                }
+                                else
+                                {
+                                    validEntry = true;
+                                }
+                            }
+                        } while (validEntry == false);
+                    }
+                }
+            }
+            Console.WriteLine($"\nNickname and personality description fields are complete for all of our friends. Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
 
@@ -312,7 +409,7 @@ do
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
-        
+
         case "7":
             // Display all cats with a specified characteristic
             Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
@@ -326,6 +423,7 @@ do
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
+
 
         default:
             break;
