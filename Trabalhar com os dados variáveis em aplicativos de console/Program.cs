@@ -1,6 +1,6 @@
 ﻿/*
 
-//Usar métodos de matriz para limpar e redimensionar uma matriz
+//Criar uma matriz de paletes, depois classificá-los - Aqui, você está usando o método Sort() da classe Array para classificar os itens na matriz de modo alfanumérico.
 
     string[] pallets = { "B14", "A11", "B12", "A13" };
 
@@ -10,6 +10,11 @@
     {
         Console.WriteLine($"-- {pallet}");
     }
+
+
+//Inverter a ordem dos paletes - inverter a ordem dos paletes usando o método Array.Reverse() 
+
+    string[] pallets = { "B14", "A11", "B12", "A13" };
 
     Console.WriteLine("");
     Console.WriteLine("Reversed...");
@@ -132,7 +137,6 @@
     string value = "abc123";
     char[] valueArray = value.ToCharArray();
     Array.Reverse(valueArray);
-  //string result = new string(valueArray)
     string result = String.Join(",", valueArray);
     Console.WriteLine(result);
     
@@ -142,3 +146,4 @@
         Console.WriteLine(item);
     }
 */
+   //string result = new string(valueArray) linha140
