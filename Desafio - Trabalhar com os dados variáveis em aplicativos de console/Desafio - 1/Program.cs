@@ -1,6 +1,8 @@
 ﻿string pangram = "The quick brown fox jumps over the lazy dog";
 
+// Divide a string em palavras
 string[] palavras = pangram.Split(' ');
+
 // Inverte a ordem das palavras
 Array.Reverse(palavras);
 
